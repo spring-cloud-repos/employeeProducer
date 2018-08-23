@@ -5,6 +5,7 @@ public class Employee {
 	private String name;
 	private String designation;
 	private double salary;
+	private String config;
 
 	public Employee() {
 	}
@@ -39,6 +40,14 @@ public class Employee {
 
 	public void setSalary(double salary) {
 		this.salary = salary;
+	}
+
+	public String getConfig() {
+		return config;
+	}
+
+	public void setConfig(String config) {
+		this.config = config;
 	}
 
 }
